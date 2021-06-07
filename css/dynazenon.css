@@ -1,0 +1,71 @@
+#head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 9;
+    width: 100%;
+    display: flex;
+    margin: 6px 0;
+}
+
+#head>.iconfont {
+    font-size: 18px;
+    color: #bbb;
+    padding: 6px 10px;
+}
+
+.sousuo {
+    flex-grow: 1;
+    border-radius: 4px;
+    background-color: #eee;
+    display: flex;
+    line-height: 36px;
+}
+
+.sousuo .iconfont {
+    font-size: 20px;
+    color: gray;
+    padding: 0 12px;
+
+}
+
+.sousuo>input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    margin: 0 4px;
+    background-color: #eee;
+}
+
+.stext {
+    font-size: 16px;
+    line-height: 36px;
+    padding: 0 10px;
+}
+/* 导航 */
+#daohang{
+    margin-top: 12%;
+    margin-left: -3%;
+}
+#daohang>ul{
+    display: flex;
+    font-size: 14px;
+}
+#daohang li{
+    width: 25%;
+    text-align: center;
+}
+#daohang li:nth-child(1){
+    border-bottom: 3px solid #fb7299;
+    /* display: inline; */
+}
+/* 导航2 */
+.daohangxia{
+    width: 100%;
+    word-spacing: 80px;
+    margin: 15px;
+}
+.daohangxia a{
+    color: rgb(158,158,158);
+}

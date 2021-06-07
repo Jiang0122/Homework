@@ -1,0 +1,103 @@
+#head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 9;
+    width: 100%;
+    display: flex;
+    margin: 6px 0;
+}
+
+#head>.iconfont {
+    font-size: 18px;
+    color: #bbb;
+    padding: 6px 10px;
+}
+
+.sousuo {
+    flex-grow: 1;
+    border-radius: 4px;
+    background-color: #eee;
+    display: flex;
+    line-height: 36px;
+}
+
+.sousuo .iconfont {
+    font-size: 20px;
+    color: #222;
+    padding: 0 12px;
+
+}
+
+.sousuo>input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    margin: 0 4px;
+    background-color: #eee;
+}
+
+.stext {
+    font-size: 16px;
+    line-height: 36px;
+    padding: 0 10px;
+}
+
+/* 热搜 */
+.resou {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resou .iconfont:first-child {
+ color: #fb7299;
+}
+
+.quanbu h5 {
+    margin-top: 15px;
+}
+
+.resou a {
+    width: 50%;
+}
+
+/* 搜索历史 */
+.sousuolishi {
+    display: flex;
+}
+
+.sousuolishi a {
+    width: 30%;
+    text-align: center;
+    background-color: rgb(219, 218, 218);
+    margin: 0 2%;
+}
+
+/* 清空搜索历史 */
+.qingkong {
+    margin: 30px;
+    text-align: center;
+    color: gray;
+}
+
+.qingkong .iconfont {
+    font-size: 20px;
+}
+
+/* 搜索发现 */
+.sousuofaxian {
+    display: flex;
+}
+
+.yincang {
+    float: right;
+}
+
+.sousuofaxian a {
+    width: 30%;
+    text-align: center;
+    background-color: rgb(219, 218, 218);
+    margin: 0 3%;
+
+}

@@ -1,0 +1,207 @@
+body{
+    margin-bottom: 90px;
+}
+#head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 9;
+    width: 100%;
+    display: flex;
+    margin: 6px 0;
+}
+.login>p{
+    height: 70%;
+    font-size: 15px;
+    color: #fb7299;
+    border-radius:100%;
+    padding: 6px 6px;
+    background-color: rgb(192, 190, 190);
+}
+.sousuo{
+    flex-grow: 1;
+     border-radius: 4px;
+    background-color: #eee;
+    display: flex;
+    line-height: 36px;
+}
+.sousuo .iconfont{
+    font-size: 20px;
+    color: rgb(114, 112, 112);
+   padding: 0 12px;
+    
+}
+.sousuo>input{
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    margin: 0 4px;
+    background-color: #eee;
+}
+.stext .iconfont{
+    font-size: 30px;
+    line-height: 36px;
+    padding: 0 10px;
+}
+/* 导航 */
+#daohang{
+    margin-top: 15%;
+    margin-left: -3%;
+}
+#daohang>ul{
+    display: flex;
+    font-size: 14px;
+}
+#daohang li{
+    width: 25%;
+    text-align: center;
+}
+#daohang li:nth-child(3){
+    font-weight: bold;
+    border-bottom: 3px solid #fb7299;
+    
+}
+#daohang li:nth-child(3) h4{
+    color: #fb7299;
+}
+/* 内容 */
+.tubiao{
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+}
+.tubiao>ul{
+    display: flex;
+}
+.tubiao li{
+    width: 25%;
+}
+.tubiao .iconfont{
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    line-height: 46px;
+}
+.tubiao li:nth-child(1) .iconfont{
+    color: #fb7299;
+}
+.tubiao li:nth-child(2) .iconfont{
+    color: #fc5252d7;
+}
+.tubiao li:nth-child(3) .iconfont{
+    color: #f8ec7cd7;
+}
+.tubiao li:nth-child(4) .iconfont{
+    color: #ff9900ea;
+}
+.tubiao a{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+}
+/* 分割up主 */
+.upzhu{
+    width: 100%;
+    display: flex;
+}
+.upzhu img:first-child {
+    width: 12%;
+    height: 15%;
+    border-radius: 50%;
+}
+.upzhu img:nth-last-child(1){
+    width: 12%;
+    height: 15%;
+    margin-left: 240px;
+}
+/* 内容 */
+.zlist{
+    margin: 8px;
+    width: 100%;
+}
+.zlist>li{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+}
+.zlist img{
+    width: 190px;
+    margin-right: 12px;
+}
+.ztext{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ztext h3{
+    width: 100%;
+    font-size: 14px;
+    padding-right: 20%;
+    line-height: 36px;
+    color: rgb(0, 0, 0);
+}
+.author{
+    width: 100%;
+    font-size: 12px;
+    color: #ccc;
+}
+.author1{
+    font-size: 12px;
+    color: #ccc;
+  
+}
+.author2{
+    flex-grow: 1;
+    text-align: right;
+}
+/* scrpit滚动页面 */
+#s3{
+    height: 33px;
+ }
+ .swiper-wrapper{
+     height: 33px;
+ }
+ #s3 .swiper-slide{
+     height: 33px;
+     line-height: 33px;
+     color: #039;
+     text-align: center;
+ }
+/* 页尾 */
+#bnav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 4px;
+}
+#bnav>ul{
+    display: flex;
+}
+#bnav li{
+    width: 20%;
+}
+#bnav .iconfont{
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    line-height: 46px;
+}
+#bnav li:nth-child(1) .iconfont{
+    color: #fb7299;
+}
+#bnav a{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+}
+#bnav li:nth-child(1) a{
+    color: #fb7299;
+}

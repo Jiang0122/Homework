@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.quanju{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.mima{
+    width: 30%;
+    height: 5%;
+    border-top: 2px solid #fff;
+}
+.mima >p{
+    margin-left: 15px;
+    border-bottom: 1px solid #fff;
+}
+img{
+    width: 100%;
+    /* border: 1px solid #000; */
+   transition: all .8s;
+}
+#input{
+    width: 100%;
+}
+button{
+    background: #fff;
+    border: 0;
+}
+#number-input{
+    width: 70%;
+    height: 50%;
+    border: 0;
+}
+#number-input[placeholder="请输入账号"]{
+    margin-bottom: 20px;
+}
+#password-input{
+    width: 70%;
+    height: 50%;
+    border: 0;
+}
+.input-div span{
+    width: 8%;
+    margin-left: 10px;
+    margin-top: -5px;
+
+}
+.input-div1 span{
+    width: 8%;
+    margin-left: 10px;
+}
+#number-btn{
+    font-size: 16px;
+}
+.input-div{
+    width: 100%;
+    height: 30%;
+    background: #fff;
+    display: flex;
+}
+
+.dengluzhuce{
+    width: 100%;
+    padding-top: 30px;
+}
+.zhuce{
+    width: 50%;
+    height: 100%;
+    border:1px solid red;
+    background: white;
+    color: red;
+    float: left;
+    line-height: 35px;
+}
+.denglu{
+    width: 50%;
+    height: 25%;
+    background: #fb7299;
+    color: white;
+    line-height: 38px;
+}
+.dengluzhuce .wenzi{
+    text-align: center;
+}

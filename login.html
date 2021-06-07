@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="font1/iconfont.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="quanju">
+        <div class="mima">
+            <a href="./index.html"><span class="iconfont icon-zuojiantou"></span></a>
+            密码登录
+        </div>
+        
+        <img src="./images/video16.jpg">
+
+       
+        <div id="input">
+            <div class="input-div">
+                <span>账号</span>
+                <input type="number" name="" id="number-input" value="" placeholder="请输入账号" required id="user" />
+            </div>
+            <div class="input-div1">
+                <span>密码</span>
+                <input type="password" name="" id="password-input" value="" placeholder="请输入密码" required id="pwd" />
+                <button type="button" id="password-btn">忘记密码？</button>
+            </div>
+        </div>
+        <div class="dengluzhuce">
+            <button class="zhuce"><a href="#">注册</a></button>
+            <button class="denglu"><a href="./index.html">登录</a></button>
+            <div class="wenzi">
+                <p>登录即代表你同意<a href="">用户协议</a>和<a href="">隐私政策</a></p>
+                <p>遇到问题？<a href="">查看帮助</a>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        var id=document.getElementById("number-input")
+        var pwd=document.getElementById("password-input")
+        var img =document.querySelector("img");
+        id.onclick=function(){
+            img.src="./images/video16.jpg"
+        }
+        pwd.onclick=function(){
+            img.src="./images/video17.jpg"
+        }
+    </script>
+</body>
+
+</html>
