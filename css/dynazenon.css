@@ -63,9 +63,43 @@
 /* 导航2 */
 .daohangxia{
     width: 100%;
-    word-spacing: 80px;
+    word-spacing: 60px;
     margin: 15px;
 }
 .daohangxia a{
     color: rgb(158,158,158);
+}
+/* 内容 */
+.zlist{
+    margin: 8px;
+}
+.zlist>li{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+}
+.zlist img{
+    width: 190px;
+    margin-right: 12px;
+}
+.ztext{
+    display: flex;
+    /* flex-grow: 1; */
+    flex-wrap: wrap;
+}
+.author{
+    width: 100%;
+    font-size: 12px;
+    color: #ccc;
+    /* padding: 5px 10px; */
+}
+.author1{
+    font-size: 12px;
+    color: #ccc;
+  
+}
+.author2{
+    flex-grow: 1;
+    text-align: right;
 }
