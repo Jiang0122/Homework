@@ -10,7 +10,7 @@
     margin: 6px 0;
 }
 .login>p{
-    height: 70%;
+    line-height: 20px;
     font-size: 15px;
     color: #fb7299;
     border-radius:100%;
@@ -132,12 +132,13 @@
 }
 .tiga{
     display: flex;
+    flex-grow: unset;
 }
 .waiwei .wenzi .slh .iconfont{
     display: block;
     font-size: 15px;
     color:gray;
-    margin-left: 110px;
+    text-align: right;
 }
 .tupian2{
     position: relative;
